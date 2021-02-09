@@ -3,14 +3,46 @@
   <head>
     <meta charset="UTF-8">
     <title>Playground - JavaScript 101</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <p style="margin-top: 40vh; text-align: center; font: normal 24px monospace;">
       Open the console 🤓
     </p>
 
-    <!-- Add some HTML in here -->
+    <img class='roundable' src="https://kitt.lewagon.com/placeholder/users/monsieurpaillard"
+     id="romain" height="200" alt="Romain Paillard" />
+    <img class='roundable' src="https://kitt.lewagon.com/placeholder/users/andrerferrer"
+     id="andre" height="200" alt="Andre" />
 
+    <div id="user" 
+         data-uid="2471555" 
+         data-github-nickname="Papillard"
+         data-favorite-food='Pizza'>
+      Boris Paillard
+    </div>
+
+    <a href="https://www.lewagon.com" id="home">
+      Le Wagon <strong>rocks</strong>
+    </a>
+
+    <br>
+    <input name="email" id="email" value="kevin@gmail.com" />
+
+    
+    <!-- beforebegin -->
+    <ul id="players">
+      <!-- afterbegin -->
+      <li class='active red'>
+        <p>
+          Ezequiel Altavista
+          <a id='my-button' href="" class="btn">Klick Mich</a>
+        </p>
+      </li>
+      <li>Daniel Thiel</li>
+      <!-- beforeend -->
+    </ul>
+    <!-- afterend -->
     <script src="main.js"></script>
   </body>
 </html>
